@@ -1,0 +1,203 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+.header:before{
+    content: "";
+    position: absolute;
+}
+
+
+h1{
+    font-size: 50px;
+}
+
+/* *************navbar**************** */
+.navbar-brand{
+    font-size: 30px;
+}
+.nav-item a{
+    color: #fff!important;
+    font-weight:bold;
+}
+.dropdown-menu a{
+    color: black!important;
+}
+
+.extra{
+    
+    padding: 20px!important;
+    text-align: center;
+    display: flexbox;
+
+}
+
+.centerdiv{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding-top: 350px!important;
+}
+
+@media (max-width:765px)
+{
+    .centerdiv{
+        padding: 10px!important;
+    }
+    .extra{
+        padding: 10px!important;
+    }
+    
+    .header{
+        height: auto;
+    }
+}
+    .book{
+        background-color: rgb(15, 15, 15)!important;
+    }
+.bookrow{
+    
+    border: medium none;
+    padding: 30px!important;
+    border-radius: 3px;
+    transition: 0.3s;
+    text-align: center;
+    color: whitesmoke;
+    
+}
+.bookimg{
+    height: 200px;
+    width: 160px;
+}
+    .desp{
+        width: 100%;
+    height: 100%;
+    position: relative;
+    color: white;
+    text-align: left;
+    background-color: black;
+    }
+    .content{
+        height: 300px;
+        width: 600px;
+    }
+.desp1{
+    padding-top: 30px;
+}    
+.desp2{
+    padding-top: 100px;
+}
+
+.newsletter{
+    height: auto;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: black;
+    color: whitesmoke;
+    
+}
+
+.news-input{
+    border-radius: 100px 0px 0px 100px!important;
+    min-width: 150px;
+    min-width: 45px;
+}
+
+.input-group-text{
+    color: white;
+    background: #3a3d3d;
+    border-radius: 0 100px 100px 0!important;
+    min-width: 130px;
+    min-height: 40px;
+}
+
+
+.about{
+    height: 45vh;
+    width: 100%;
+    padding-top: 30px;
+    background-color: rgb(15, 15, 15)!important;
+}
+.aboutus{
+    border: solid black;
+    padding: 80px!important;
+    background-color: black;
+    color: whitesmoke;
+    
+}
+.aboutus h3{
+    text-align: center;
+}
+.cover{
+    width: 100%;
+    height: 40vh;
+    
+
+}
+.cover3{
+    width: 100%;
+    height: 40vh;
+    
+}
+
+.page-footer{
+    height: 25vh;
+    width: 100%;
+    color:whitesmoke;
+    background-color: black;
+}
+
+
+@media (max-width:1200px){
+    .about{
+        height: 50vh;
+    }
+}
+@media (max-width:765px){
+    .about{
+        height: 65vh;
+    }
+}
+
+@media (max-width:414px){
+    .about{
+        height: 80vh;
+    }
+    .desp2 {
+        padding-top: 44px;
+    }
+}
+
+
+@media (max-width:360px){
+    /* .about{
+        height: 110vh;
+    } */
+    .desp2 {
+        padding-top: 44px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
