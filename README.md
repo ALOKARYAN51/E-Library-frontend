@@ -26,7 +26,7 @@ We want to make contributing as easy as transparent as possible whether it is :
   ```
   5. See changes using
 ```
-    git  remote -v
+    git remote -v
 ```
   6. Create new branch
   ```
