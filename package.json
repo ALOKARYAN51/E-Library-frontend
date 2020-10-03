@@ -1,0 +1,20 @@
+{
+  "name": "E-Library-frontend",
+  "version": "1.0.0",
+  "description": "* HTML5.\r * CSS3.\r * Javascript.\r * bootstrap.\r * php",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALOKARYAN51/E-Library-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ALOKARYAN51/E-Library-frontend/issues"
+  },
+  "homepage": "https://github.com/ALOKARYAN51/E-Library-frontend#readme"
+}
