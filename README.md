@@ -3,7 +3,6 @@
 * CSS3.
 * Javascript.
 * bootstrap.
-* React.js
 
 
 ## How to contribute ?
