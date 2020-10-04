@@ -58,3 +58,5 @@ We want to make contributing as easy as transparent as possible whether it is :
 12. Finally, go to your repository in browser and click on `compare and pull requests`
 13. Then add a title and description to your pull request thats explain your precious effort.
 14. click on `Create Pull Request`
+### congratulation!
+You contributed to open source project & sit relax wait for review. Thank you.
