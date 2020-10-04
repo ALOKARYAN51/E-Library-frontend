@@ -1,5 +1,7 @@
 html{
     scroll-behavior: smooth;
+    overflow-y: hidden;
+    
 }
 
 *{
@@ -7,11 +9,12 @@ html{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    color: black;
 }
 .header{
     height: 100vh;
     width: 100%;
-    background-color: black;
+    background-color: rgb(255, 251, 251);
 }
 .header:before{
     content: "";
@@ -63,10 +66,11 @@ h1{
     
     .header{
         height: auto;
+        color : black;
     }
 }
     .book{
-        background-color: rgb(15, 15, 15)!important;
+        background-color: rgb(201, 201, 201)!important;
     }
 .bookrow{
     
@@ -88,7 +92,7 @@ h1{
     position: relative;
     color: white;
     text-align: left;
-    background-color: black;
+    background-color: rgb(255, 251, 251);
     }
     .content{
         height: 300px;
@@ -106,7 +110,7 @@ h1{
     width: 100%;
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: black;
+    background-color: rgb(201, 201, 201);
     color: whitesmoke;
     
 }
@@ -127,24 +131,23 @@ h1{
 
 
 .about{
-    height: 55vh;
+    height: 45vh;
     width: 100%;
     padding-top: 30px;
-    background-color: rgb(15, 15, 15)!important;
-   
-}
-.aboutus{
-    border: solid black;
-    padding: 80px!important;
-    background-color: black;
-    color: whitesmoke;
+    background-color: rgb(255, 251, 251)!important;
     margin-bottom: 50px;
     
+}
+.aboutus{
+    padding: 80px!important;
+    background-color: rgb(238, 238, 238);
+    box-shadow: 2px 2px 5px  5pxrgb(100, 98, 98);
+    color: whitesmoke;
+    border-radius: 40px;
     
 }
 .aboutus h3{
     text-align: center;
-    
 }
 .cover{
     width: 100%;
@@ -162,7 +165,7 @@ h1{
     height: 25vh;
     width: 100%;
     color:whitesmoke;
-    background-color: black;
+    background-color: rgb(201, 201, 201);
 }
 
 
