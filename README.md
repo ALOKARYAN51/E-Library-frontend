@@ -60,3 +60,4 @@ We want to make contributing as easy as transparent as possible whether it is :
 14. click on `Create Pull Request`
 ### congratulation!
 You contributed to open source project & sit relax wait for review. Thank you.
+### If you like this repo, drop a ⭐
