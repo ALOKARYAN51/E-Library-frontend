@@ -9,7 +9,6 @@ html{
     font-family: 'Poppins', sans-serif;
 }
 .header{
-    height: 100vh;
     width: 100%;
     background-color: black;
 }
@@ -49,7 +48,6 @@ h1{
     position: relative;
     color: white;
     text-align: center;
-    padding-top: 350px!important;
 }
 
 @media (max-width:765px)
@@ -67,7 +65,12 @@ h1{
 }
     .book{
         background-color: rgb(15, 15, 15)!important;
+        overflow-x: auto;
     }
+.book-slider
+{
+    min-width: max-content;
+}
 .bookrow{
     
     border: medium none;
@@ -76,6 +79,7 @@ h1{
     transition: 0.3s;
     text-align: center;
     color: whitesmoke;
+    float: left;
     
 }
 .bookimg{
