@@ -24,6 +24,10 @@ h1{
 }
 
 /* *************navbar**************** */
+.navbar{
+    position:absolute;
+    width:100%;
+}
 .navbar-brand{
     font-size: 30px;
 }
@@ -37,7 +41,7 @@ h1{
 
 .extra{
     
-    padding: 20px!important;
+    padding: 80px 20px 20px!important;
     text-align: center;
     display: flexbox;
 
@@ -58,7 +62,7 @@ h1{
         padding: 10px!important;
     }
     .extra{
-        padding: 10px!important;
+        padding: 80px 10px 10px !important; 
     }
     
     .header{
