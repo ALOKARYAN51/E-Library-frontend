@@ -40,7 +40,7 @@ We want to make contributing as easy as transparent as possible whether it is :
   ```
     git checkout -b <your_branch_name> 
 ```
-7. Always take pull request from upstrean repository to your master branch to keep it per with the main project.
+7. Always take pull request from upstream repository to your master branch to keep it per with the main project.
 ```
     git pull upstream master
  ```
