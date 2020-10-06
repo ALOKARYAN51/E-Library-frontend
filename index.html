@@ -16,9 +16,9 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <div class="container">
-      <a class="navbar-brand font-weight-bold" href="#">Library</a>
+      <a class="navbar-brand font-weight-bold library" href="#">Library</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -244,15 +244,33 @@
   <!-- Footer -->
 
   <div class="switch-theme">
-    <p>Change theme</p>
     <label class="switch">
-      <input type="checkbox" onchange="changeTheme(event)" /><span class="slider"></span>
+
+      <input id="checkbox" type="checkbox" onchange="changeTheme(event)"/><span class="slider"></span>
     </label>
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    /*function for toggling to dark and light theme*/
+    document.addEventListener('DOMContentLoaded', function () {
+            var checkbox = document.querySelector('#checkbox');
+            var navbar = document.querySelector('.navbar');
+            checkbox.addEventListener('change', function () {
+              if (checkbox.checked) {
+                document.querySelector('body').classList.add("dark-theme");
+                navbar.classList.replace("navbar-light","navbar-dark");
+                navbar.classList.replace("bg-light","bg-dark");
+              } else {
+                document.querySelector('body').classList.remove("dark-theme");
+                navbar.classList.replace("navbar-dark","navbar-light");
+                navbar.classList.replace("bg-dark","bg-light");
+            }
+        });
+    });
+  </script>
 </body>
 
 </html>
