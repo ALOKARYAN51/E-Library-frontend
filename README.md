@@ -30,7 +30,7 @@ We want to make contributing as easy as transparent as possible whether it is :
  ```
  4. Add a reference to original repositrory.
  ```
-    git remote upstream https://github.com/ALOKARYAN51/E-Library-frontend.git
+    git remote add upstream https://github.com/ALOKARYAN51/E-Library-frontend.git
   ```
   5. See changes using
 ```
